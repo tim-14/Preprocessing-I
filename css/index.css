@@ -1,1 +1,138 @@
-/* Compile your LESS file! */
+html {
+  font-size: 62.5%;
+}
+* {
+  background-color: darkslategray;
+}
+header {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15px;
+  color: white;
+  margin: 0;
+}
+header div {
+  display: inline-block;
+  width: 45%;
+}
+header div h1 {
+  font-size: 3rem;
+  margin-bottom: 2px;
+  border-bottom: 2px solid white;
+}
+header div h3 {
+  font-size: 2rem;
+  margin-top: 2px;
+}
+header div nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 250px;
+  justify-content: space-around;
+  margin: auto auto 10px auto;
+  padding-top: 25px;
+}
+header div nav a {
+  display: inline-block;
+  font-size: 2rem;
+  width: 40%;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+header img {
+  display: inline-block;
+  width: 45%;
+}
+section.intro {
+  border: 3px solid white;
+  border-radius: 18px;
+  display: inline-block;
+  width: 85%;
+  margin: 35px 7.5% 35px 7.5%;
+}
+section.intro h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+section.intro p {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 18px;
+  color: white;
+}
+section.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+}
+section.skills h3 {
+  text-align: center;
+  border-top: 3px solid white;
+  padding-top: 15px;
+  font-size: 2rem;
+  width: 100%;
+}
+section.skills div {
+  display: inline-block;
+  width: 33%;
+  border: 3px solid white;
+  border-radius: 18px;
+  text-align: center;
+  padding: 15px;
+  margin: 25px;
+}
+section.work-history {
+  font-size: 2rem;
+  color: white;
+  border-top: 3px solid white;
+  text-align: center;
+}
+section.work-history div {
+  text-align: left;
+}
+section.work-history div h2 {
+  font-size: 1.8rem;
+}
+section.work-history div h6 {
+  font-size: 1.6rem;
+}
+section.work-history div address {
+  font-size: 1.6rem;
+}
+section.work-history div p {
+  font-size: 1.6rem;
+}
+section.work-history div ul {
+  font-size: 1.5rem;
+}
+section.contact {
+  font-size: 2rem;
+  color: white;
+  border: 3px solid white;
+  border-radius: 18px;
+  display: inline-block;
+  width: 75%;
+  margin: 25px 12.5% 25px 12.5%;
+  padding: 15px;
+}
+section.contact p {
+  font-size: 1.5rem;
+}
+section.contact nav {
+  font-size: 1.8rem;
+}
+section.contact nav a {
+  color: white;
+  font-size: 1.5rem;
+  padding: 15px;
+}
