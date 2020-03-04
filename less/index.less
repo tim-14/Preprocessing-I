@@ -4,7 +4,9 @@
 .padding15(){
 	padding: 15px;
 }
-
+.textalignr(){
+	text-align: left;
+}
 html{
 	font-size:62.5%;
 
@@ -44,9 +46,11 @@ header{
 			padding-top: 25px;
 			a{
 				display:inline-block;
+				font-size: 2rem;
 				width: 40%;
 				height:40px;
 				border: 1px solid white;
+				border-radius: 18px;
 				color: white;
 				text-decoration: none;
 				.padding15();
@@ -61,6 +65,7 @@ header{
 
 section.intro{
 	border: 3px solid white;
+	border-radius: 18px;
 	display: inline-block;
 	width: 85%;
 	margin: 35px 7.5% 35px 7.5%;
@@ -100,4 +105,54 @@ section.skills{
 		.padding15();
 		margin: 25px;
 	}	
+}
+
+section.work-history{
+	font-size: 2rem;
+	color: white;
+	border-top: 3px solid white;
+	text-align: center;
+	div{
+		.textalignr();
+		h2{
+			font-size: 1.8rem;	
+		}
+		h6{
+			font-size: 1.6rem;
+		}
+		address{
+			font-size: 1.6rem;
+		}
+		p{
+			font-size: 1.6rem;
+		}
+		ul{
+			font-size: 1.5rem;
+		}
+	}
+	
+}
+
+section.contact{
+	font-size: 2rem;
+	color: white;
+	border: 3px solid white;
+	border-radius: 18px;
+	display: inline-block;
+	width: 75%;
+	margin: 25px 12.5% 25px 12.5%;
+	.padding15();
+	p{
+		font-size: 1.5rem;
+	}
+	nav{
+		font-size: 1.8rem;
+
+		a{
+			color: white;
+			font-size: 1.5rem;
+			.padding15();
+		}
+	}
+
 }
